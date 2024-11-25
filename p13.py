@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 import numpy as np
 # Generate values for x-axis 
 x = np.linspace(0, 2 * np.pi, 1000)  # 1000 points from 0 to 2π 
