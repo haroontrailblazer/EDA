@@ -1,0 +1,43 @@
+Installing Python 3
+
+Download Python 3:
+Go to the official Python website.
+Download the latest Python 3 version for your operating system.
+link:https://www.python.org/downloads/
+
+Install Python 3:
+Run the installer and follow the instructions.
+Make sure to check the box that says "Add Python to PATH" during the installation process.
+
+Installing Libraries
+After installing Python 3, you can use pip (Python's package installer) to install the required libraries.
+Open your command prompt or terminal and run the following commands one by one:
+
+1.Upgrade pip (Optional, but recommended):
+python -m pip install --upgrade pip
+
+2.Install numpy:
+pip install numpy
+
+3.Install scipy:
+pip install scipy
+
+4.Install matplotlib:
+pip install matplotlib
+
+5.Install seaborn:
+pip install seaborn
+
+6.Install basemap:
+pip install basemap
+
+7.Install geemap:
+pip install geemap
+
+8.Install geopandas:
+pip install geopandas
+
+if thease syntax dosen't work 
+ 1.Add [py -m] before each command 
+               OR
+ 2.Add [python3 -m] before each command         
