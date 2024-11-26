@@ -9,8 +9,9 @@ print("\n                        SUMMARY STATISTICAL ANALYSIS")
 
 fp = (input("\nEnter your file path :"))
 df = pd.read_csv(fp,low_memory=False)
+print(dfc=df.dropna());dfc.info()
 col = str(input("Enter your field name :")) 
-ip = df[[col]].values.reshape(-1,1)
+ip = dfc[[col]].values.reshape(-1,1)
 
 
 print("\n                 Normal dataset :",ip)
