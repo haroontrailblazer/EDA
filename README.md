@@ -2,27 +2,6 @@ Data Visualization and Analysis in Python
 This repository contains a comprehensive collection of Python scripts demonstrating various data visualization techniques and statistical analyses.
 It is designed for educational purposes, primarily to aid students and educators in understanding and applying these concepts using Python libraries such as Matplotlib, Seaborn, Pandas, and more.
 
-Installation
-Install Python 3
-
-1.Download Python 3:
-Go to the official Python website.
-Download the latest Python 3 version for your operating system.
-
-Install Python 3:
-Run the installer and follow the instructions.
-Make sure to check the box that says "Add Python to PATH" during the installation process.
-
-Install Required Libraries
-Open your command prompt or terminal and run the following commands to install the necessary libraries:
-pip install numpy
-pip install scipy
-pip install matplotlib
-pip install seaborn
-pip install basemap
-pip install geemap
-pip install geopandas
-
 
 Contents
    Visualization Techniques
