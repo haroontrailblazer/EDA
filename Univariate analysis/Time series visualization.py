@@ -6,7 +6,7 @@ import seaborn as sp
 #the data dosen't contains any noise you easily visualize an positive linear trend in it
 date=pd.date_range(start='01-01-21',end='30-12-30',freq='D')
 #creating a valus column with parallel to date range
-values=np.linspace(1,1000,len(date))
+values=np.random.randint(1,1000,len(date))
 df=pd.DataFrame({'date':date,'values':values})
 #creating seperate column for year,day,month
 df['year']=df['date'].dt.year
