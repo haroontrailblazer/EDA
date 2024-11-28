@@ -7,23 +7,27 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 #the data dosen't contains any noise you easily visualize an positive linear trend in it
 date=pd.date_range(start='01-01-21',end='30-12-30',freq='D')
 #creating a valus column with parallel to date range
-values=np.random.randint(1,500,len(date))
+values=np.random.random_integers(1,1000,len(date))
 df=pd.DataFrame({'date':date,'values':values})
-s=seasonal_decompose(df['values'],model='additive',period=365)
+s=seasonal_decompose(df["values"],model='additive',period=9)
+e=s.resid
 t=s.trend
 s=s.seasonal
 pt.figure(figsize=(14,10))
-pt.subplot(311)
-pt.plot(df['values'],label='Original values')
+pt.subplot(411)
+pt.plot(df['date'],df['values'],label='Original values',color='grey')
 pt.legend()
-pt.show()
 
-pt.subplot(312)
-pt.plot(t,label='Trend')
+pt.subplot(412)
+pt.plot(df['date'],t,label='Trend',color='red')
 pt.legend()
-pt.show()
 
-pt.subplot(313)
-pt.plot(s,label='Seasonal')
+pt.subplot(413)
+pt.plot(df['date'],e,label='rediual dara',color='green')
 pt.legend()
+
+pt.subplot(414)
+pt.plot(df['date'],s,label='Seasonal',color='purple')
+pt.legend()
+pt.tight_layout()
 pt.show()
