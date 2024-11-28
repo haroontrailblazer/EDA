@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sp
 #creating a date from 01-01-2021 to 30-12-2030
 #the data dosen't contains any noise you easily visualize an positive linear trend in it
-date=pd.date_range(start='01-01-21',end='30-12-30',freq='D')
+date=pd.date_range(start='01-01-21',end='30-12-30',freq='M')
 #creating a valus column with parallel to date range
 values=np.linspace(1,1000,len(date))
 df=pd.DataFrame({'date':date,'values':values})
