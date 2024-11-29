@@ -7,8 +7,9 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 #the data dosen't contains any noise you easily visualize an positive linear trend in it
 date=pd.date_range(start='01-01-21',end='30-12-30',freq='D')
 #creating a valus column with parallel to date range
-values=np.random.random_integers(1,1000,size=len(date))
-df=pd.DataFrame({'date':date,'values':values})
+values=np.linspace(1,750,len(date))
+ip=values+np.random.random_integers(1,30,len(date))
+df=pd.DataFrame({'date':date,'values':ip})
 s=seasonal_decompose(df["values"],model='additive',period=9)
 e=s.resid
 t=s.trend
