@@ -9,7 +9,7 @@ date=pd.date_range(start='01-01-21',end='30-12-30',freq='M')
 values=np.linspace(1,1000,size=len(date))
 #creating noise over a linear data
 ip=values+np.random.random_integers(1,100,len(data)
-df=pd.DataFrame({'date':date,'values':values})
+df=pd.DataFrame({'date':date,'values':ip})
 #finding hypothesis
 r=adfuller(df['values'],autolag="AIC")
 if r[1]<=0.05:
