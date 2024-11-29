@@ -21,3 +21,6 @@ s30min=df.resample("30T").ffill()
 print(s30min)
 weekely=df.resample("W").sum()
 print(weekely)
+#date and time aggregation
+dfcombo=df.resample("30MIN").ffill().resample("D").mean()
+print(dfcombo)
