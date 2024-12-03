@@ -6,9 +6,9 @@ from statsmodels.tsa.stattools import adfuller
 #the data dosen't contains any noise you easily visualize an positive linear trend in it
 date=pd.date_range(start='01-01-21',end='30-12-30',freq='M')
 #creating a valus column with parallel to date range
-values=np.linspace(1,1000,size=len(date))
+values=np.linspace(1,1000,len(date))
 #creating noise over a linear data
-ip=values+np.random.random_integers(1,100,len(data)
+ip=values+np.random.random_integers(1,100,len(date))
 df=pd.DataFrame({'date':date,'values':ip})
 #finding hypothesis
 r=adfuller(df['values'],autolag="AIC")
