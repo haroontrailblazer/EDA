@@ -5,7 +5,7 @@ import seaborn as sp
 from scipy import stats
 cols=[]
 fp=str(input(r"Enter the file path: "))
-df=pd.read_csv(fp,low_memory=False);print("\nOiginal data:\n",df);print("\nThe null data rows are\n",df.isnull().sum())
+df=pd.read_csv(fp,low_memory=False,encoding_errors='ignore');print("\nOiginal data:\n",df);print("\nThe null data rows are\n",df.isnull().sum())
 dfc=df.dropna();print("\ncleaned data:\n",dfc)
 gn=input("Enter the fields name:").split(",");n=len(gn)
 for i in range(1,n+1):
