@@ -2,10 +2,10 @@ import matplotlib.pyplot as plt
 import numpy as np 
 # Generate values for x-axis 
 x = np.linspace(0, 2 * np.pi, 40)  # 40 points from 0 to 2π 
-print (‘Value of x is:’, x) 
+print ('Value of x is:', x) 
 # Compute sine values 
 y = np.sin(x) 
-print (‘Value of y is:’, y) 
+print ('Value of y is:', y) 
 # Create the plot 
 plt.plot(x, y, label='Sine Wave') 
 # Add labels and title 

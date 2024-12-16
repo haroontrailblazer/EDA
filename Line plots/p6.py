@@ -9,8 +9,7 @@ x = np.linspace(-1, 1, 10)
 print(x) 
 # Compute the y values using the linear function y = 2 * x + 1 
 y = 2 * x + 1 
-# Create a line plot with x values on the x-axis and y values on 
-the y-axis 
+# Create a line plot with x values on the x-axis and y values on y-axis 
 plt.plot(x, y) 
 # Display the plot to the user 
 plt.show() 
