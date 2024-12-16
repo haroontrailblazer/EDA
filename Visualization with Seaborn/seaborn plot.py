@@ -41,8 +41,7 @@ plt.xlabel('Category')
 plt.ylabel('Values') 
 plt.show() 
 # 6. Heatmap 
-# Note: Heatmap usually requires a 2D matrix, here we make a 
-dummy matrix 
+# Note: Heatmap usually requires a 2D matrix, here we make a dummy matrix 
 import numpy as np 
 matrix = np.array([values]) 
 plt.figure(figsize=(10, 6)) 
