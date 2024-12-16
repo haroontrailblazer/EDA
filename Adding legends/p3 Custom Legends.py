@@ -1,4 +1,3 @@
-P34: Creating Legend with Color Box 
 import matplotlib.pyplot as plt 
 import matplotlib.patches as patches 
 # Example data 
