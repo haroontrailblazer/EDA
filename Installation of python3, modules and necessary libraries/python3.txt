@@ -3,7 +3,7 @@ Installing Python 3
 Download Python 3:
 Go to the official Python website.
 Download the latest Python 3 version for your operating system.
-link:https://www.python.org/downloads/
+link:[https://www.python.org/downloads/]
 
 Install Python 3:
 Run the installer and follow the instructions.
