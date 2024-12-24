@@ -4,6 +4,7 @@ import numpy as np
 # Data
 categories = ['A', 'B', 'C', 'D']
 values = [3, 7, 5, 2]
+values2 = [4, 6, 3, 4]
 
 # Grouped Bar Plot
 bar_width = 0.35
