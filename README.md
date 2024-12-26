@@ -21,7 +21,7 @@ To get started, ensure you have the following installed:
 ### Installation
 Clone the repository:
 ```sh
-git clone https://github.com/yourusername/eda-public-learning.git
+git clone https://github.com/haroontrailblazer/EDA-public-learning.git
 cd eda-public-learning
 ```
 Install the required libraries:
