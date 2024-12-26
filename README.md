@@ -53,8 +53,8 @@ Join the community of learners and contributors:
 
 ## Contact
 For any questions or suggestions, feel free to reach out:
-- **Email**: your.email@example.com
-- **GitHub**: @yourusername
+- **Email**: haroonint144@gmail.com
+- **GitHub**: haroontrailblazer
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
