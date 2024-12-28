@@ -15,6 +15,8 @@ In the ever-evolving landscape of technology, continuous learning and skill deve
 ## 📄 View My Certificate
 Click the link below to view and download my certificate:
 [View Certificate](https://github.com/haroontrailblazer/EDA/blob/main/certificates/Data%20Analytics.pdf)
+[View Certificate]()
+
 
 ## 🌐 Connect with Me
 I am always eager to connect with fellow enthusiasts, professionals, and potential collaborators. Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/haroon-k-m-861b8a255/) or explore my GitHub profile for more exciting projects and contributions.
