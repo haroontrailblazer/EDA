@@ -11,3 +11,4 @@ fig.update_layout(
     yaxis_title='Y-axis',
     showlegend=True
 )
+fig.show()

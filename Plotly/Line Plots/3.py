@@ -12,3 +12,4 @@ fg.update_layout(title='Sine Wave', xaxis_title='X-axis', yaxis_title='Y-axis')
 # Add annotations to the plot
 fg.add_annotation(text='Sine Wave', x=5, y=0, showarrow=True, arrowhead=2, ax=0, ay=-40)
 fg.add_annotation(text='Cosine Wave', x=5, y=0, showarrow=True, arrowhead=2, ax=0, ay=-40)
+fg.show()
