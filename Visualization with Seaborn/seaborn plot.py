@@ -5,6 +5,7 @@ import pandas as pd
 categories = ['A', 'B', 'C', 'D'] 
 values = [10, 20, 15, 30] 
 df = pd.DataFrame({'Category': categories, 'Values': values}) 
+plt.style.use('dark_background')
 # 1. Scatter Plot 
 plt.figure(figsize=(10, 6)) 
 sns.scatterplot(x='Category', y='Values', data=df) 

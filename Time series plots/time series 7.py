@@ -25,6 +25,7 @@ conf_int = forecast.conf_int()
 
 # Plot original data and forecast
 plt.figure(figsize=(12, 6))
+plt.style.use('dark_background')
 plt.plot(time_series, label='Original Data', color='blue')
 plt.plot(forecast_series, label='Forecast', color='orange')
 plt.fill_between(forecast_index, conf_int.iloc[:, 0], conf_int.iloc[:, 1], color='orange', alpha=0.3, label='95% Confidence Interval')

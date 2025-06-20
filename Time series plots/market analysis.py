@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as mp
 import matplotlib.dates as mdates
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
-fp=input(r"\nEnter the previous data file:")
+fp=input(r"\nUse the wipro stock market csv file in the same folder:")
 df=pd.read_csv(fp,parse_dates=['date']).set_index('date')
 df.isnull().sum();df.ffill()
 df_daily=df.resample('D').mean().ffill()

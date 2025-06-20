@@ -46,4 +46,6 @@ print("Quantile of 50th =",qu)
 print("Quantile of 75th =",c)
 print("\n                 Scaled data values :",sca)
 print("\n                 Standardized data values :",stand)
-print("\n                 Normalized data values",nor)
+print("\n                 Normalized data values",nor,"\n")
+
+print("Pandas Describe Function: \n",dfc.describe())

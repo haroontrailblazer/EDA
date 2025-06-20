@@ -6,6 +6,8 @@ from statsmodels.tsa.holtwinters import ExponentialSmoothing
 print("\n• If the frequency is Minutewise Enter(N)\n• If the frequency is Hourly Enter(H)\n• If the frequency is Daywise Enter(D)\n• If the frequency is weekely Enter(W)\n• If the frequency is Monthly Enter(M)\n• If the frequency is yearly Enter(Y)\n")
 n1=input("\n\nEnter your Date and Time frequency: ");n2=int(input("Enter your no.of.forcasing steps: "));fp=input(r"\nEnter the previous data file:")
 df=pd.read_csv(fp,parse_dates=['date']).set_index('date');df.isnull().sum();df.ffill()
+
+mp.style.use('dark_background')
 if n1=='N':
     x=int(input('how many hours data you have: '))
     df_min=df.resample('min').mean().ffill()
