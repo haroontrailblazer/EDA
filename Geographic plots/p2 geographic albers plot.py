@@ -9,8 +9,8 @@ lon_0=-100,  # Central longitude
 resolution='c') 
 # Draw map boundaries and features 
 m.drawcoastlines()
- m.drawcountries()
- m.drawstates()
+m.drawcountries()
+m.drawstates()
                 # Draw coastlines 
                  # Draw country borders 
                     # Draw US state boundaries 

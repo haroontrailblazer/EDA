@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 # Example data: Ages of a group of people 
 data = [18, 20, 22, 21, 24, 30, 28, 27, 33, 35, 38, 40, 42, 45] 
 # Create a histogram 
