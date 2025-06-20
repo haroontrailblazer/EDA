@@ -14,8 +14,8 @@ In the ever-evolving landscape of technology, continuous learning and skill deve
 
 ## 📄 View My Certificate
 Click the link below to view and download my certificate:
-[1.View Certificate](https://github.com/haroontrailblazer/haroontrailblazer/blob/main/Data%20Analytics.pdf),
-[2.View Certificate](https://github.com/haroontrailblazer/haroontrailblazer/blob/main/Data_science.pdf)
+[1.View Certificate](https://github.com/haroontrailblazer/haroontrailblazer/blob/main/Certificates/Data%20Analytics.pdf),
+[2.View Certificate](https://github.com/haroontrailblazer/haroontrailblazer/blob/main/Certificates/Data_science.pdf)
 
 
 ## 🌐 Connect with Me
