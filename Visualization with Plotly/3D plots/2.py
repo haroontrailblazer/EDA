@@ -6,13 +6,7 @@ y = [10, 20, 30, 40, 50]
 z = [5, 15, 25, 35, 45]
 
 # Creating a 3D line plot
-fig = pg.Figure(data=[pg.Scatter3d(
-    x=x,  # X-axis data
-    y=y,  # Y-axis data
-    z=z,  # Z-axis data
-    mode='lines',  # Line plot mode
-    line=dict(color='blue', width=4)  # Line style
-)])
+fig = pg.Figure(data=[pg.Scatter3d(x=x,y=y,z=z,mode='lines',line=dict(color='blue', width=4))])
 
 # Updating the layout with title and axis labels
 fig.update_layout(
