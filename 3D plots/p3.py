@@ -10,7 +10,7 @@ z = np.random.rand(100)
 fig = plt.figure(figsize=(10, 7)) 
 ax = fig.add_subplot(111, projection='3d') 
 # Create a 3D scatter plot 
-scatter = ax.scatter(x, y, z, c='blue', marker='o') 
+ax.scatter(x, y, z, c='blue', marker='o') 
 # Set labels and title 
 ax.set_xlabel('X-axis') 
 ax.set_ylabel('Y-axis') 
