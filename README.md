@@ -2,6 +2,17 @@
 
 ## Overview
 Welcome to the EDA Public Learning Repository! This repository is dedicated to helping learners understand and perform Exploratory Data Analysis (EDA). It contains various Jupyter notebooks, datasets, and resources to guide you through the process of analyzing and visualizing data.
+<div align="center">
+
+  <h3><b>Cisco Certified Data Analyst</b></h3>
+
+  <img width="121" height="121" alt="data-analytics-essentials" 
+       src="https://github.com/user-attachments/assets/a73e5ad8-7ea6-4ffa-82b0-ae6bb03af6f4" />
+
+  <p><b>Skills:</b> Data Analysis, Data Storytelling, Data Visualization, Tableau, Dashboard, Excel, SQL</p>
+
+</div>
+
 
 ## Contents
 - **data/**: Datasets used for analysis.
