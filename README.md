@@ -9,7 +9,7 @@ Welcome to the EDA Public Learning Repository! This repository is dedicated to h
   <img width="121" height="121" alt="data-analytics-essentials" 
        src="https://github.com/user-attachments/assets/a73e5ad8-7ea6-4ffa-82b0-ae6bb03af6f4" />
 
-  [![Credly Badge](https://img.shields.io/badge/View%20on-Credly-orange?style=for-the-badge&logo=credly)](https://www.credly.com/badges/4a77f00c-5326-4836-a5ba-c9a4bfbd9e34/public_url)
+[![Credly Badge](https://img.shields.io/badge/View%20on-Credly-orange?style=flat&logo=credly)](https://www.credly.com/users/haroon-k-m)
 
 
   <p><b>Skills:</b> Data Analysis, Data Storytelling, Data Visualization, Tableau, Dashboard, Excel, SQL</p>
